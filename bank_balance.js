@@ -10,7 +10,6 @@ var bank_account = {
 	}
 };
 
-bank_account.deposit(500);
+bank_account.deposit(500); //initial balance
 
-if (window.console){console.log(bank_account.balance);}
-document.writeln()
+if (window.console){console.log('Your balance is now '+bank_account.balance);}
