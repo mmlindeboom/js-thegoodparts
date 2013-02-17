@@ -6,7 +6,7 @@ var bank_account = {
 	balance: 0,
 	deposit: function(amount) {
 		this.balance += typeof amount === 'number' ? amount : 1;
-		return true;
+		return 'Your balance is now '+bank_account.balance;
 	}
 };
 
